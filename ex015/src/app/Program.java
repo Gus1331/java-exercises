@@ -8,22 +8,21 @@ import command.Help;
 public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        String[] commands = {"/help", "/create", "/update", "/delete", "/complete"};
+        // String[] commands = {"/help", "/create", "/update", "/delete", "/complete", "/clear"};
 
         Help comHelp = new Help();
         ToDoList comToDoList = new ToDoList();
 
+        System.out.println("To do-list");
+        System.out.println();
+        System.out.println("type /help to see all interactions");
 
         while (true) {
-            System.out.println("To do-list");
-            System.out.println();
 
-            System.out.println("type /help to see all interactions");
             String interaction;
-            interaction = sc.next();
+            interaction = sc.nextLine();
 
 /*            VERIFICA SE O COMANDO EXISTE
-
               for (String i : commands){
                   System.out.println(i.equals(interaction));
                   //PRINTA TRUE OR FALSE
@@ -36,27 +35,39 @@ public class Program {
                 case "/create":
                     comToDoList.newTask();
                     break;
-                case "/update":
+                case "/edit":
+                    comToDoList.editTask();
                     break;
                 case "/delete":
+                    comToDoList.deleteTask();
                     break;
                 case "/complete":
                     comToDoList.completeTask();
                     break;
+                case "/clear":
+                    comToDoList.clearTasks();
+                    break;
                 default:
-                    System.out.println(interaction);
+                    System.out.println("error: " + interaction + "does not exist!");
+                    System.out.println("type /help to see all interactions");
             }
             System.out.println();
 
-            int n = 0;
-            for (String i : comToDoList.list) {
-                n++;
-                String completion = "Não completada";
-                if (comToDoList.listProgression.get(n - 1)) {
-                    completion = "Completada!";
+            if(comToDoList.list.size() == 0){
+                System.out.println("You didn't create any tasks yet!");
+            } else {
+                int n = 0;
+
+                for (String i : comToDoList.list) {
+                    String completion = " ";
+                    if (comToDoList.listProgression.get(n)) {
+                        completion = "✓";
+                    }
+                    System.out.println((n + 1) + " - (" + completion + ") " + " " + i + ".");
+                    n++;
                 }
-                System.out.println(n + " - " + i + " . (" + completion + ")");
             }
+
 
             System.out.println();
         }

@@ -2,11 +2,12 @@ package command;
 
 public class Help {
     String[] descriptions = {
-            "/help - ",
-            "/create - ",
-            "/complete -",
-            "/delete -",
-            "/update - "
+            "/help - Show every command and how to manipulate it.",
+            "/create - Creates a new task.",
+            "/complete - Complete an existing task.",
+            "/edit - Edit text or completion of an existing task.",
+            "/delete - Delete an existing task.",
+            "/clear - Delete all tasks."
     };
 
     public void printDescriptions(){
