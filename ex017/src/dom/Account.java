@@ -116,7 +116,7 @@ public class Account {
 
     public void pagarMensal(){
         if(this.status){
-            if(this.tipo == "cc"){
+            if(this.tipo.equals("cc")){
                 this.saldo -= 12.00f;
             } else {
                 this.saldo -= 20.00f;
