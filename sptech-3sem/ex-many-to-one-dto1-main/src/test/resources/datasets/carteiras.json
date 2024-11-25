@@ -1,0 +1,14 @@
+{
+  "carteira": [
+    {
+      "id": 1,
+      "nome": "Carteira Conservadora",
+      "investidor": "Maria"
+    },
+    {
+      "id": 2,
+      "nome": "Carteira Moderada",
+      "investidor": "Pedro"
+    }
+  ]
+}

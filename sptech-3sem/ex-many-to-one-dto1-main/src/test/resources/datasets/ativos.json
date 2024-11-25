@@ -1,0 +1,25 @@
+{
+  "carteira": [
+    {
+      "id": 1,
+      "nome": "Carteira Agressiva",
+      "investidor": "João"
+    }
+  ],
+  "ativo": [
+    {
+      "id": 1,
+      "nome": "Ação XPTO",
+      "tipo": "Ação",
+      "valor_atual": 100.0,
+      "carteira_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Fundo Imobiliário ABC",
+      "tipo": "Fundo Imobiliário",
+      "valor_atual": 300.0,
+      "carteira_id": 1
+    }
+  ]
+}

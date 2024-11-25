@@ -1,0 +1,10 @@
+{
+  "carteira": [
+    {
+      "id": 1,
+      "nome": "Carteira Agressiva",
+      "investidor": "João"
+    }
+  ],
+  "ativo": []
+}

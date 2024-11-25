@@ -1,0 +1,11 @@
+{
+  "regiao": [
+    {
+      "id": 1,
+      "nome": "Ionia",
+      "sigla": "IO",
+      "descricao": "Região de Yasuo"
+    }
+  ],
+  "personagem": []
+}

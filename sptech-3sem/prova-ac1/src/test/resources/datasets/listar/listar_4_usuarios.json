@@ -1,0 +1,32 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "test1@test.com",
+      "cpf": "111.111.111-11",
+      "data_nascimento": "1991-01-01"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria.santos@example.com",
+      "cpf": "222.222.222-22",
+      "data_nascimento": "1985-02-15"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro",
+      "email": "pedro.silva@example.com",
+      "cpf": "333.333.333-33",
+      "data_nascimento": "1978-03-30"
+    },
+    {
+      "id": 4,
+      "nome": "Ana",
+      "email": "ana.carvalho@example.com",
+      "cpf": "444.444.444-44",
+      "data_nascimento": "1992-04-10"
+    }
+  ]
+}

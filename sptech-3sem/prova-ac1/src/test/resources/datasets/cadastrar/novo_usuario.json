@@ -1,0 +1,11 @@
+{
+  "usuario": [
+    {
+      "id": "regex:\\d+",
+      "nome": "João",
+      "email": "test22@test.com",
+      "cpf": "454.111.111-11",
+      "data_nascimento": "1991-01-01"
+    }
+  ]
+}

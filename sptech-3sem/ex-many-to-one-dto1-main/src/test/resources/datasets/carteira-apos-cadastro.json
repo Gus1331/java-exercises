@@ -1,0 +1,18 @@
+{
+  "carteira": [
+    {
+      "id": 1,
+      "nome": "Carteira Agressiva",
+      "investidor": "João"
+    }
+  ],
+  "ativo": [
+    {
+      "id": 1,
+      "nome": "Ação XPTO",
+      "tipo": "Ação",
+      "valor_atual": 200.0,
+      "carteira_id": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "regiao": [
+    {
+      "id": 1,
+      "nome": "Ionia",
+      "sigla": "IO",
+      "descricao": "Região de Yasuo"
+    },
+    {
+      "id": 2,
+      "nome": "Demacia",
+      "sigla": "DE",
+      "descricao": "Região de Garen"
+    }
+  ],
+  "personagem": [
+    {
+      "id": 1,
+      "nome": "Yasuo",
+      "ultimate": "Last Breath",
+      "funcao_principal": "Dano",
+      "regiao_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Riven",
+      "ultimate": "Wind Slash",
+      "funcao_principal": "Dano",
+      "regiao_id": 2
+    }
+  ]
+}

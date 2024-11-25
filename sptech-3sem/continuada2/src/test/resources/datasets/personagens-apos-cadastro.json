@@ -1,0 +1,19 @@
+{
+  "regiao": [
+    {
+      "id": 1,
+      "nome": "Ionia",
+      "sigla": "IO",
+      "descricao": "Região de Yasuo"
+    }
+  ],
+  "personagem": [
+    {
+      "id": 1,
+      "nome": "Yasuo",
+      "ultimate": "Last Breath",
+      "funcao_principal": "Dano",
+      "regiao_id": 1
+    }
+  ]
+}
